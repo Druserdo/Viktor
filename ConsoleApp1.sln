@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{DA3CEFA3-06B4-4A62-A513-EE1C8A899D29}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "take1", "ConsoleApp1\take1.csproj", "{DA3CEFA3-06B4-4A62-A513-EE1C8A899D29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Less1", "Less1\Less1.csproj", "{3B749FD1-0190-45FD-8012-95D0470A6202}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "take3", "Less1\take3.csproj", "{3B749FD1-0190-45FD-8012-95D0470A6202}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dz1", "dz1\dz1.csproj", "{C09506A5-A4DF-407E-B8D5-3C69EF2E40A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "take2", "dz1\take2.csproj", "{C09506A5-A4DF-407E-B8D5-3C69EF2E40A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson3", "Lesson3\Lesson3.csproj", "{C830D80E-C992-4937-BB39-F00AE8041884}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{C09506A5-A4DF-407E-B8D5-3C69EF2E40A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C09506A5-A4DF-407E-B8D5-3C69EF2E40A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C09506A5-A4DF-407E-B8D5-3C69EF2E40A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C830D80E-C992-4937-BB39-F00AE8041884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C830D80E-C992-4937-BB39-F00AE8041884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C830D80E-C992-4937-BB39-F00AE8041884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C830D80E-C992-4937-BB39-F00AE8041884}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
