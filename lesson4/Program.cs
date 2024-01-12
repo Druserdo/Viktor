@@ -1,0 +1,20 @@
+﻿//Console.WriteLine("Добиться успеха легко, познать смысл - вот проблема");
+using static System.Net.Mime.MediaTypeNames;
+using System.Data.SqlTypes;
+
+string firstWords = "Добиться успеха легко,";
+string secondWords = "познать смысл -";
+string thirdtWords = "вот проблема";
+string results = firstWords + " " + secondWords + " " + thirdtWords;
+Console.WriteLine(results);
+Console.WriteLine($"{ firstWords} {secondWords} {thirdtWords}");
+string union = firstWords + " " + secondWords + " " + thirdtWords;
+Console.WriteLine(union);
+string sentens = string.Concat(union, "!!!");
+Console.WriteLine(sentens);
+string cutSentens = sentens.Substring(2);
+Console.WriteLine(cutSentens);
+string cutSentens2 = sentens.Substring(0,4);
+Console.WriteLine(cutSentens2);
+string resInsert = results.Insert(8,cutSentens2 );
+Console.WriteLine(resInsert);
